@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "text": "About",
+      "id": "about",
+      "subitems": [
+        {
+          "text": "About the Royale Theatre Society",
+          "url": "/about/"
+        },
+        {
+          "text": "Board & Committee Chairs",
+          "url": "/contact/"
+        }
+      ]
+    },
+    {
+      "text": "Support MacTheatre",
+      "id": "support-mactheatre",
+      "subitems": [
+        {
+          "text": "Donate Now",
+          "url": " https://givebutter.com/theatrekid",
+          "externalLink": "true"
+        },
+        {
+          "text": "Corporate Sponsorship",
+          "url": "/corporate-sponsorship/"
+        },
+        {
+          "text": "In-Kind Contributions",
+          "url": "/in-kind-contributions/"
+        },
+        {
+          "text": "Our Supporters",
+          "url": "/our-supporters/"
+        }
+      ]
+    },
+    {
+      "text": "Ads & Tributes",
+      "id": "ads-tributes",
+      "subitems": [
+        {
+          "text": "Purchase Playbill Business Ad",
+          "url": "/business-ads/"
+        },
+        {
+          "text": "Purchase Playbill Student Tribute",
+          "url": "/tributes/"
+        },
+        {
+          "text": "Submit Playbill Ad/Tribute Artwork",
+          "url": "https://forms.gle/aimB2r8bZNuRJspq5",
+          "externalLink": "true"
+        }
+      ]
+    },
+    {
+      "text": "Current Students",
+      "id": "current-students",
+      "subitems": [
+        {
+          "text": "Headshot & Bio Submission",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFRfWznx3zLcyiEDZENg0RpP3qa1FjXeuehmWh4UA_ld6piA/viewform",
+          "externalLink": "true"
+        },
+        {
+          "text": "Scholarships",
+          "url": "/scholarships/"
+        },
+        {
+          "text": "Texas Thespian Festival",
+          "url": "https://mactheatre.com/texas-thespian-festival",
+          "externalLink": "true"
+        }
+      ]
+    },
+    {
+      "text": "Get Involved",
+      "id": "get-involved",
+      "subitems": [
+        {
+          "text": "Volunteer for a Show",
+          "url": "/volunteer/"
+        },
+        {
+          "text": "Open RTS Positions",
+          "url": "/open-positions/"
+        },
+        {
+          "text": "Calendar",
+          "url": "/calendar/"
+        },
+        {
+          "text": "Google Group",
+          "url": "/google-group/"
+        }
+      ]
+    },
+    {
+      "text": "Performances",
+      "id": "performances",
+      "subitems": [
+        {
+          "text": "Purchase Tickets",
+          "url": "https://mccallum.ludus.com/index.php",
+          "externalLink": "true"
+        },
+        {
+          "text": "The Spongebob Musical",
+          "url": "https://mactheatre.com/spongebob",
+          "externalLink": "true"
+        },
+        {
+          "text": "Princess Tea Party",
+          "url": "https://mactheatre.com/princess-tea-party",
+          "externalLink": "true"
+        },
+        {
+          "text": "All the Way Home",
+          "url": "https://mactheatre.com/all-the-way-home",
+          "externalLink": "true"
+        },
+        {
+          "text": "Joseph and the Amazing Technicolor Dreamcoat",
+          "url": "https://mactheatre.com/joseph",
+          "externalLink": "true"
+        },
+        {
+          "text": "Eurydice",
+          "url": "https://mactheatre.com/eurydice",
+          "externalLink": "true"
+        },
+        {
+          "text": "Plan Your Visit",
+          "url": "/visit/"
+        },
+        {
+          "text": "Latest Show Video",
+          "url": "/latest-show-video/"
+        }
+      ]
+    }
+  ]
+}

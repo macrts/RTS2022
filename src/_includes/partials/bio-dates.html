@@ -1,0 +1,14 @@
+<div class="rts-container">
+  <h2 class="rts-levels-heading">Due Dates</h2>
+  <div class="date-container">
+    {% for item in deadlines.items %}
+    <div class="show-and-date">
+      <p>
+        Thu, {{ item.openingNight | dateCompare }} - <b>{{ item.showTitle }}</b>
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+  <!--.date-container-->
+</div>
+<!--.rts-container-->

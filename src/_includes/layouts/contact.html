@@ -1,0 +1,50 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
+content %}
+<div class="wrapper">
+  <article class="intro">
+    <div class="intro__header">
+      <h1 class="intro__heading">{{ pageHeaderTitle }}</h1>
+    </div>
+    <div class="intro__content">
+      <p class="intro__summary">
+        Questions or comments? We’d love to hear from you. If you’re not sure
+        who to contact, you can send your inquiry to
+        <a href="mailto:questions@macrts.org">questions@macrts.org</a>.
+      </p>
+    </div>
+    <hr />
+    <h2>Board</h2>
+    <div class="contact-wrapper card-wrapper board">
+      {% for contact in contactCards %} {% if contact.boardMember == "TRUE" %}
+      <div class="contact-card">
+        <h4>{{ contact.position}}</h4>
+        <ul>
+          <li>{{ contact.nameOne }}</li>
+          <li><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+        </ul>
+      </div>
+      <!--contact-card-->
+      {% endif %} {% endfor %}
+    </div>
+    <!--.contact-wrapper-->
+    <hr />
+    <h2>Committee Chairs</h2>
+    <div class="contact-wrapper card-wrapper">
+      {% for contact in contactCards %} {% if contact.boardMember == "FALSE" %}
+      <div class="contact-card">
+        <h4>{{ contact.position}}</h4>
+        <ul>
+          <li>{{ contact.nameOne }}</li>
+          {% if contact.nameTwo %}
+          <li>{{ contact.nameTwo }}</li>
+          {% endif %}
+          <li><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+        </ul>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    <!--contact-card-->
+  </article>
+</div>
+<!--.wrapper-->
+{% include "partials/prefooter.html" %} {% endblock %}

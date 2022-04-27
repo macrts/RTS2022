@@ -1,0 +1,78 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
+content%}
+<div class="wrapper">
+  <article class="intro home">
+    <div class="intro__header">
+      <h1 class="intro__heading">{{ pageHeaderTitle }}</h1>
+    </div>
+    <div class="intro__content">
+      <p class="intro__summary">
+        In-kind contributions are integral to RTS’s mission of supporting
+        MacTheatre productions. Contributions such as meals to feed the cast and
+        crew or printing services to cover playbill costs enable us to devote
+        more of our limited budget to production costs and new enrichment
+        opportunities for our students.
+      </p>
+    </div>
+    <!--intro-content-->
+  </article>
+  <hr />
+  <div class="rts-container">
+    <div class="rts-wrapper first-wrapper-item">
+      <img
+        class="rts-img"
+        max-witdh="300"
+        src="../images/vignette-photos/Vignette-Photo-17.jpg"
+        loading="eager"
+      />
+      <div class="inner">
+        <h2>Contributor Benefits</h2>
+        <ul class="list">
+          <li>
+            Your logo with a link to your website will be included on the RTS
+            <a href="/our-supporters/">supporters' page</a> for the remainder of
+            the season.
+          </li>
+          <li>
+            Your logo will be highlighted in the post-show email sent to all of
+            the patrons of the show that the contribution applied to.
+          </li>
+        </ul>
+        <p>
+          When the value of your contributions totals $500 or more in a single
+          school semester, you will receive the benefits below during the
+          following semester (half-season):
+        </p>
+        <ul class="list">
+          <li>Your color logo on the back of the playbills for two shows.</li>
+          <li>
+            Your logo with a link to your website on the RTS
+            <a href="/">home page</a>.
+          </li>
+          <li>
+            Your logo with a link to your website on the RTS
+            <a href="/our-supporters">supporters page</a> as a lead producer.
+          </li>
+          <li>
+            Your logo with a link to your website on six promotional emails sent
+            throughout the semester to ~5000 continuously updated email
+            addresses of patrons from recent shows.
+          </li>
+          <li>
+            Your logo with a link to your website on two post-show emails sent
+            to the patrons of each show.
+          </li>
+          <li>A pass code for up to four tickets to a show.</li>
+        </ul>
+        <p>
+          For questions or more information, please contact us at
+          <a href="mailto:development@macrts.org">development@macrts.org</a>
+          .
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--rts-container-->
+</div>
+<!--.wrapper-->
+{% include "partials/prefooter.html" %} {% endblock %}

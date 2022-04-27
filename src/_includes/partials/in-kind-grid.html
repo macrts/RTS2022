@@ -1,0 +1,25 @@
+<article class="intro">
+  <div class="intro__header">
+    <h1 class="intro__heading">In-Kind Contributions</h1>
+  </div>
+</article>
+{% for item in inKindLevels.items %}
+<div class="level">
+  <h3>{{ item.level }}</h3>
+  <p class="intro-center">{{ item.tag }}</p>
+</div>
+<div class="sponsor-logos-container in-kind">
+  {% for levelItem in item.levelItems %}
+  <div class="sponsor-logos-item">
+    <a href="{{levelItem.url}}" target="_blank"
+      ><img
+        class="sponsor-logos-img"
+        src="{{levelItem.logo}}"
+        alt="{{ levelItem.sponsor}}"
+    /></a>
+  </div>
+  {% endfor %}
+  <!--.sponsor-logos-item-->
+</div>
+<!--.sponsor-logos-container-->
+{% endfor %}

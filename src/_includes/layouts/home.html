@@ -1,0 +1,46 @@
+{% extends "layouts/base.html" %} {% block content %} {% include
+"partials/carousel.html" %} {% include "partials/prefooter.html" %}
+<div class="wrapper">
+  <article class="intro home">
+    <div class="intro__header">
+      <h1 class="intro__heading">Welcome!</h1>
+    </div>
+    <div class="intro__content">
+      <p class="intro__summary">
+        The Royale Theatre Society (RTS) is an independent 501(c)(3) non-profit
+        organization that supports
+        <a
+          href="https://mactheatre.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >MacTheatre</a
+        >
+        productions and enrichment programs through volunteer coordination and
+        financial support.
+      </p>
+      <p class="intro__summary">
+        As part of the
+        <a
+          href="https://www.mccallumfineartsacademy.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >McCallum Fine Arts Academy</a
+        >
+        (MFAA), MacTheatre is comprised of student artists from across Austin
+        who share a common drive, passion, and commitment to excellence in
+        theatre arts. RTS support is crucial to sustaining this exemplary,
+        tuition-free theatre program.
+      </p>
+      <a href="/about/" class="button secondary-button">Learn More →</a>
+      <hr />
+    </div>
+    <!--intro-content-->
+  </article>
+  <article class="intro">
+    <div class="intro__header">
+      <h2>2021/22 Season Sponsors</h2>
+    </div>
+  </article>
+  {% include "partials/sponsor-logos.html" %} {% endblock %}
+</div>
+<!--wrapper-->

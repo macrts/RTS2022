@@ -1,0 +1,29 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %}{% block
+content %}
+<div class="wrapper">
+  <article class="intro">
+    <h3 class="visit-heading">
+      Joseph and the Amazing Technicolor Dreamcoat - February 6, 2022
+    </h3>
+    <div class="latest-video">
+      <iframe
+        src="https://www.youtube.com/embed/QOuGO28rRqE"
+        title="YouTube video player"
+        class="video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Element Name: Video Button -->
+    <div class="gb-button">
+      <p>
+        Please consider a donation to help us continue to bring you videos of
+        MacTheatre performances.
+      </p>
+      <div givebutter-element-id="OL4eGg"></div>
+    </div>
+  </article>
+</div>
+{% include "partials/prefooter.html" %} {% endblock %}
