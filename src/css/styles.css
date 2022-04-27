@@ -47,7 +47,8 @@ h6 {
 p,
 address,
 ul.sponsor-checkout-list li,
-ul.list li .donor-container ul li {
+ul.list li,
+.donor-container ul li {
   font-family: 'Hind', sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
