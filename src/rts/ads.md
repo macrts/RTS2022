@@ -5,6 +5,6 @@ summary: 'Congratulate the entire cast and crew, or send a message of support to
 displayOrder: 2
 buttontext: 'More Details →'
 buttonURL: '/tributes/'
-imageURL: '/images/vignette-photos/Vignette-Photo-7.jpg'
+imageURL: '/images/vignette-photos/Eurydice-02-Cidale.jpg'
 ads: true
 ---

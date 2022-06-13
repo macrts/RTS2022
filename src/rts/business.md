@@ -5,6 +5,6 @@ summary: 'If you want to purchase a cast and crew tribute to congratulate or sup
 displayOrder: 2
 buttontext: 'More Details →'
 buttonURL: '/business-ads/'
-imageURL: '/images/vignette-photos/Vignette-Photo-14.jpg'
+imageURL: '/images/vignette-photos/Jumbaline-01-Cidale.jpg'
 business: true
 ---

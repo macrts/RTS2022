@@ -4,6 +4,6 @@ summary: "Sign up for our Google listserve group where we talk about upcoming vo
 displayOrder: 2
 buttontext: "Join Google Group →"
 buttonURL: "https://groups.google.com/g/mactheatreparents"
-imageURL: "/images/vignette-photos/Vignette-Photo-15.jpg"
+imageURL: "/images/vignette-photos/Grand-Hotel-01.jpg"
 googlegroup: true
 ---
