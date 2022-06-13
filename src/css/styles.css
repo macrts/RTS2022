@@ -55,8 +55,6 @@ ul.list li,
   font-weight: 300;
   font-style: normal;
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  -webkit-hyphens: auto;
   -webkit-hyphenate-limit-before: 3;
   -webkit-hyphenate-limit-after: 3;
   -webkit-hyphenate-limit-chars: 6 3 3;
@@ -674,7 +672,6 @@ ul.producer li {
     var(--secondary-brand),
     var(--pale-brand)
   );
-  padding-block: 2rem;
   width: 100%;
   text-align: center;
   display: flex;
@@ -1308,7 +1305,7 @@ article#in-kind-donors {
   scroll-margin-top: 5em;
 }
 
-@supports not (column-gap: 2rem) {
+@supports not ((-moz-column-gap: 2rem) or (column-gap: 2rem)) {
   .social-nav > * {
     padding-right: 2rem;
   }
