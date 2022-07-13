@@ -1,0 +1,84 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
+content%}
+<div class="wrapper">
+  <article class="intro home">
+    <div class="intro__header">
+      <h1 class="intro__heading">{{title}}</h1>
+      <h2 class="rts__heading headline">(Cast & Crew Recognition)</h2>
+    </div>
+    <div class="intro__content">
+      <p class="intro__summary">
+        One of the most powerful ways we can support MacTheatre students past,
+        present, and future is building and maintaining an alumni network.
+        Whether you’re a high-schooler visiting prospective schools, a recent
+        graduate headed off to college, or ready to break into the performing
+        arts (or any other industry) professionally, it’s important to be able
+        to find others with the common experience of MacTheatre.
+      </p>
+    </div>
+  </article>
+  <hr />
+  <div class="rts-wrapper first-wrapper-item">
+    <img
+      class="rts-img"
+      max-witdh="300"
+      src="../images/vignette-photos/SpongeBob-02-Cidale.jpg"
+      loading="eager"
+    />
+    <div class="inner">
+      <h2 class="rts__heading headline">Mailing List</h2>
+      <p class="rts-summary">
+        So much more than a mailing list. It’s a vast knowledge resource and
+        something about a network maybe. Students, parents, and alumni may
+        request connections…
+      </p>
+      <p>
+        Our alumni mailing list is a great way to stay informed about what’s
+        going on at MacTheatre. We’ll let you know about upcoming shows, send
+        post-show photos, and MacTheatre and alumni news. You can even opt out
+        of the promotions if you live out of town.
+      </p>
+      <div class="buttony">
+        <a class="button" href="/">Subscribe →</a>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="rts-wrapper rev">
+    <img
+      class="rts-img"
+      max-witdh="300"
+      src="../images/vignette-photos/Jumbaline-03-cidale.jpg"
+      loading="lazy"
+    />
+    <div class="inner">
+      <h2 class="rts__heading headline">Feeling nostalgic?</h2>
+      <p class="rts-summary">
+        If you want to take a trip down memory lane, you can check out the
+        <a
+          href="https://drive.google.com/drive/folders/1Nlloujbu73W09lDROAr8RX-UwDPmzQKR?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >playbills</a
+        >
+        from every MacTheatre season going back to 2015/2016. There are also
+        <a
+          href="https://drive.google.com/drive/folders/1Nlloujbu73W09lDROAr8RX-UwDPmzQKR?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >performance photos</a
+        >
+        going back to 2010.
+      </p>
+      <p class="rts-summary">
+        If you have playbills or photos that you’d like to share from earlier
+        shows, please send them to us at
+        <a href="mailto:alumni@macrts.org">alumni@macrts.org</a> so we can post
+        them or include them in our alumni newsletter. We’d love to have them
+        for our archives.
+      </p>
+    </div>
+  </div>
+</div>
+<!--wrappert-->
+{% include "partials/prefooter.html" %} {% endblock %}

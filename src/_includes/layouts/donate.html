@@ -1,0 +1,81 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %}  {% block content %}
+    <div class="wrapper">
+      <div class="rts-container">
+        <div class="rts-wrapper first-wrapper-item">
+          <img
+            class="rts-img"
+            max-witdh="300"
+            loading="eager"
+            src="../images/vignette-photos/Grand-Hotel-03.jpeg"
+          />
+
+          <div class="inner">
+            <h1 class="rts__heading headline">When you support MacTheatre…</h1>
+            <p class="rts__summary">You're supporting students who are devoted to something bigger than themselves. Who embrace diversity and individuality. Who thrive on challenges and constantly seek to improve. Who are committed to long hours and passionate about their work. Who strive for excellence in the classroom, behind the scenes, and on the stage.</p>
+            <p class="rts__summary">MacTheatre productions inspire because they reflect the best in our students, and your support makes those productions possible.</p>
+            <div class="buttony">
+                <a class="button" href="/donor-checkout/"
+                  >Donate Now →</a
+                >
+              </div>
+          </div>
+          <!--inner-->
+        </div>
+        <!--wrapper-->
+      </div>
+      <hr>
+      <article class="intro home">
+        <div class="intro__content">
+          <p class="intro__summary">
+           <b> A very generous group of MacTheatre grandparents has agreed to match all gifts dollar-for-dollar!</b> This match lasts through September 30th, or until we raise $20,000 towards our 2022/2023 budget.
+          </p>
+        </div>
+        <!--intro-content-->
+      </article>
+      <hr>
+      <article class="intro home">
+        <div class="intro__header">
+          <h1 class="intro__heading">Give Now and Enjoy Exclusive Perks!</h1>
+        </div>
+        <div class="intro__content">
+          <p class="intro__summary intro-center">
+            All donors will receive the following benefits:
+          </p>
+          <ul class="list producer list-center">
+            <li>Website recognition</li>
+            <li>Playbill recognition</li>
+            <li>Pre-sale access to tockets</li>
+          </ul>
+          <p class="intro__summary intro-center">
+            Additional benefits will vary based on your donation.
+          </p>
+        </div>
+      </article>
+      <article class="intro">
+        <div class="ind-donors">
+            {% for item in individualdonorlevels.items %}
+            <div class="ind-donor">
+            <h3>{{item.name}} ({{item.amount}})</h3>
+                <ul class=" producer ind-list">
+                    <li>{{ item.benefit }}</li>
+                    <li><i>Non-deductible portion of gift: {{ item.nonDeductible }}</i></li>
+                  </ul>
+                </div>
+          {% endfor %}
+        </div>
+      </article>
+      <hr>
+      <article class="intro home">
+        <div class="intro__content">
+            <p class="intro__summary">
+                For donations of $2500 or more, please contact us at <a href="mailto:development@macrts.org">development@macrts.org</a> to discuss specific underwriting and acknowledgement opportunities.
+            </p>
+        </div>
+        <div class="buttony">
+            <a class="button" href="/donor-checkout/"
+              >Donate Now →</a>
+          </div>
+      </div>
+        </article>
+    </div>
+    {% include "partials/prefooter.html" %} {% endblock %}

@@ -20,8 +20,7 @@
       "subitems": [
         {
           "text": "Donate Now",
-          "url": " https://givebutter.com/theatrekid",
-          "externalLink": "true"
+          "url": "/donate/"
         },
         {
           "text": "Corporate Sponsorship",
@@ -34,6 +33,11 @@
         {
           "text": "Our Supporters",
           "url": "/our-supporters/"
+        },
+        {
+          "text": "Amazon Smile",
+          "url": "https://smile.amazon.com/?ref_=smi_ext_ch_87-2157644_dl",
+          "externalLink": "true"
         }
       ]
     },
@@ -66,8 +70,8 @@
           "externalLink": "true"
         },
         {
-          "text": "Scholarships",
-          "url": "/scholarships/"
+          "text": "Financial Aid",
+          "url": "/financial-aid/"
         },
         {
           "text": "Texas Thespian Festival",
@@ -103,33 +107,13 @@
       "id": "performances",
       "subitems": [
         {
+          "text": "2022/2023 Season",
+          "url": "https://mactheatre.com/#whats-on",
+          "externalLink": "true"
+        },
+        {
           "text": "Purchase Tickets",
           "url": "https://mccallum.ludus.com/index.php",
-          "externalLink": "true"
-        },
-        {
-          "text": "The Spongebob Musical",
-          "url": "https://mactheatre.com/spongebob",
-          "externalLink": "true"
-        },
-        {
-          "text": "Princess Tea Party",
-          "url": "https://mactheatre.com/princess-tea-party",
-          "externalLink": "true"
-        },
-        {
-          "text": "All the Way Home",
-          "url": "https://mactheatre.com/all-the-way-home",
-          "externalLink": "true"
-        },
-        {
-          "text": "Joseph and the Amazing Technicolor Dreamcoat",
-          "url": "https://mactheatre.com/joseph",
-          "externalLink": "true"
-        },
-        {
-          "text": "Eurydice",
-          "url": "https://mactheatre.com/eurydice",
           "externalLink": "true"
         },
         {

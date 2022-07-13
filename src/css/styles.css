@@ -48,7 +48,8 @@ p,
 address,
 ul.sponsor-checkout-list li,
 ul.list li,
-.donor-container ul li {
+.donor-container ul li,
+ul.ind-list li {
   font-family: 'Hind', sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -537,7 +538,9 @@ a.social-nav__button:hover {
   -webkit-padding-before: 1rem;
   padding-block-start: 1rem;
 }
-.sponsor-logos-container {
+
+.sponsor-logos-container,
+.ind-donors {
   padding: 2rem 0 3rem;
   display: flex;
   flex-wrap: wrap;
@@ -548,6 +551,10 @@ a.social-nav__button:hover {
   align-content: center;
   align-items: center;
   border-bottom: 2px solid var(--lightest-brand);
+}
+.ind-donors {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 .sponsor-logos-container.in-kind {
   -moz-column-gap: 2rem;
@@ -652,7 +659,15 @@ ul.producer {
   margin-inline-start: 16px;
   list-style-type: '\2713';
 }
-ul.producer li::marker {
+ul.ind-list {
+  margin-inline: auto;
+  max-width: 100ch;
+  margin-block-end: 1rem;
+  list-style-type: '\2713';
+  padding-block-start: 0;
+}
+ul.producer li::marker,
+ul.ind-list li::marker {
   -webkit-padding-end: 0.5rem;
   padding-inline-end: 0.5rem;
   color: var(--secondary-brand);
@@ -661,6 +676,14 @@ ul.producer li {
   padding-block: 0.5rem;
   -webkit-padding-start: 0.25rem;
   padding-inline-start: 0.25rem;
+}
+ul.ind-list li {
+  padding-block: 0.2rem;
+}
+ul.list-center {
+  padding-block-start: 0;
+  display: table;
+  margin: 0 auto 1rem;
 }
 .rts-levels-heading {
   text-align: center;
@@ -672,6 +695,7 @@ ul.producer li {
     var(--secondary-brand),
     var(--pale-brand)
   );
+  padding-block: 2rem;
   width: 100%;
   text-align: center;
   display: flex;
@@ -744,7 +768,8 @@ footer > * {
     text-align: center;
   }
 }
- .footer-item > *, .footer-attrib > * {
+.footer-item > *,
+.footer-attrib > * {
   color: var(--white);
 }
 
@@ -777,7 +802,8 @@ footer > * {
 }
 .footer-item a,
 .footer-item address,
-.footer-item p, .footer-attrib p {
+.footer-item p,
+.footer-attrib p {
   line-height: 1.2;
   font-size: 1rem;
 }

@@ -1,0 +1,34 @@
+{
+    "items": [
+      {
+        "name": "Bronze",
+        "amount": "$5 - $199",
+        "benefit": "25% off up to four opening night tickets",
+        "nonDeductible": "$0"
+      },
+      {
+        "name": "Silver",
+        "amount": "$200 - $349",
+        "benefit": "Pass for up to 4 free tickets for the season",
+        "nonDeductible": "$60"
+      },
+      {
+        "name": "Gold",
+        "amount": "$350 - $599",
+        "benefit": "Pass for up to 6 free tickets for the season",
+        "nonDeductible": "$90"
+      },
+      {
+        "name": "Platinum",
+        "amount": "$600 - $999",
+        "benefit": "Pass for up to 8 free tickets for the season",
+        "nonDeductible": "$120"
+      },
+      {
+        "name": "Diamond",
+        "amount": "$1000 - $2499",
+        "benefit": "Pass for up to 10 free tickets for the season",
+        "nonDeductible": "$150"
+      }
+    ]
+  }

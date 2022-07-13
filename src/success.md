@@ -1,5 +1,5 @@
 ---
-title: "Sponsor Checkout"
-layout: "layouts/sponsor-checkout.html"
-permalink: "/sponsor-checkout/index.html"
+title: "Thank you!"
+layout: "layouts/success.html"
+permalink: "/success/index.html"
 ---
