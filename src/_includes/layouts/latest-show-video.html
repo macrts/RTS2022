@@ -2,18 +2,18 @@
 content %}
 <div class="wrapper">
   <article class="intro">
-    <h3 class="visit-heading">
-      Joseph and the Amazing Technicolor Dreamcoat - February 6, 2022
-    </h3>
+    {% for video in latestVideo %}
+    <h3 class="visit-heading">{{ video.title }}</h3>
     <div class="latest-video">
       <iframe
-        src="https://www.youtube.com/embed/QOuGO28rRqE"
+        src="{{ video.link }}"
         title="YouTube video player"
         class="video"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      {% endfor %}
     </div>
 
     <!-- Element Name: Video Button -->
