@@ -93,8 +93,13 @@
           "url": "/open-positions/"
         },
         {
+          "text": "Alumni",
+          "url": "/alumni/"
+        },
+        {
           "text": "Calendar",
-          "url": "/calendar/"
+          "url": "https://calendar.google.com/calendar/u/0/embed?src=c_ll1tkavcgn6ovgepaclhoe1p5o@group.calendar.google.com&bgcolor=%23c5d2fc&ctz=America/Chicago&showTitle=0&showDate=0&mode=AGENDA",
+          "externalLink": "true"
         },
         {
           "text": "Google Group",

@@ -1,18 +1,297 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
 content %}
+
 <div class="wrapper">
-  <div class="rts-container">
-    <h1 class="rts-levels-heading">{{ pageHeaderTitle}}</h1>
-    <div class="intro">
-      <p>
-        If you are interested in being a committee chair for the 2022/2023
-        season, please contact
-        <a href="mailto:president@macrts.org">president@macrts.org</a>. An open
-        position list is coming soon!
+  <article class="intro home">
+    <div class="intro__header">
+      <h1 class="intro__heading">{{title}}</h1>
+    </div>
+    <div class="intro__content">
+      <p class="intro__summary">
+        Parent involvement is essential to the success of MacTheatre, so we
+        encourage everyone to check out our season-long volunteer options to
+        find one that fits your interests and availability. Volunteering is a
+        great way to contribute and build relationships with other parents in
+        the MacTheatre community. Don’t hesitate to contact
+        <a href="mailto:president@macrts.org">president@macrts.org</a> or the
+        current <a href="/contact/">committee chairs</a> to get more detail on a
+        particular position, or to get started!
+      </p>
+      <p class="intro__summary">
+        To maintain continuity, RTS takes a “watch, do, teach” approach.
+        Typically, freshman and sophomore parents are learners, sophomore and
+        junior parents are doers, and senior parents are busy being senior
+        parents (but also great knowledge resources). And if you’re interested
+        in a position with no vacancies, don’t worry…that committee would love
+        to have the extra help. Many hands make light work!
       </p>
     </div>
-  </div>
-  <!--rts-container-->
+  </article>
+  <hr class="openpos" />
+  <article class="intro home">
+    <!-- <h2>Positions</h2> -->
+    <div class="tabbed">
+      <ul>
+        <li>
+          <a href="#section1">Roles With Open Positions</a>
+        </li>
+        <li>
+          <a href="#section2">Roles With Open Learner Positions</a>
+        </li>
+        <li>
+          <a href="#section3">All Positions (Open & Filled)</a>
+        </li>
+      </ul>
+      <hr class="openpos" />
+      <section id="section1">
+        <h2>Roles With Open Positions</h2>
+        <p class="intro-center">
+          The following roles have openings for the 22-23 school year.
+        </p>
+        <div class="contact-wrapper card-wrapper openpositions">
+          {% for position in openpositions %} {% if position.positionAvailable
+          != "FILLED" %}
+          <div class="contact-card">
+            <h4>{{ position.position}}</h4>
+            <ul>
+              {% if position.positionAvailable != "FILLED" %}
+              <li class="available">
+                <b>★ Available Positions:</b> {{ position.positionAvailable }}
+              </li>
+              {% else %}
+              <li class="filled"><b> Available Positions:</b> None</li>
+              {% endif %} {% if position.learnerAvailable != "FILLED" %}
+              <li>
+                <b>Available Learner Positions:</b> {{ position.learnerAvailable
+                }}
+              </li>
+              {% else %}
+              <li class="filled"><b> Available Learner Positions:</b> None</li>
+              {% endif %}
+
+              <li>
+                {% if position.busyTime %}<b>Busy Time:</b> {{ position.busyTime
+                }} {% endif %}
+              </li>
+
+              <li>
+                {% if position.narrative %}<b>Description:</b> {{
+                position.narrative }} {% endif %}
+              </li>
+            </ul>
+          </div>
+
+          <!--contact-card-->
+          {% endif %} {% endfor %}
+        </div>
+      </section>
+      <section id="section2">
+        <h2>Roles With Open Learner Positions</h2>
+        <p class="intro-center">
+          The following roles have openings for learners who want to shadow and
+          learn the ropes during the 22-23 school year, in anticipation of
+          taking over the mail role next year.
+        </p>
+        <div class="contact-wrapper card-wrapper openpositions">
+          {% for position in openpositions %} {% if position.learnerAvailable !=
+          "FILLED" %}
+          <div class="contact-card">
+            <h4>{{ position.position}}</h4>
+            <ul>
+              {% if position.positionAvailable != "FILLED" %}
+              <li>
+                <b>Available Positions:</b> {{ position.positionAvailable }}
+              </li>
+              {% else %}
+              <li class="filled"><b> Available Positions:</b> None</li>
+              {% endif %} {% if position.learnerAvailable != "FILLED" %}
+              <li class="available">
+                <b>★ Available Learner Positions:</b> {{
+                position.learnerAvailable }}
+              </li>
+              {% else %}
+              <li class="filled"><b> Available Learner Positions:</b> None</li>
+              {% endif %}
+
+              <li>
+                {% if position.busyTime %}<b>Busy Time:</b> {{ position.busyTime
+                }} {% endif %}
+              </li>
+
+              <li>
+                {% if position.narrative %}<b>Description:</b> {{
+                position.narrative }} {% endif %}
+              </li>
+            </ul>
+          </div>
+
+          <!--contact-card-->
+          {% endif %} {% endfor %}
+        </div>
+      </section>
+      <section id="section3">
+        <h2>All Positions (Open & Filled)</h2>
+        <p class="intro-center">
+          This is a list of all the roles, including those with openings for the
+          main role, the learner role, and those which are currently filled.
+        </p>
+        <div class="contact-wrapper card-wrapper openpositions">
+          {% for position in openpositions %}
+          <div class="contact-card">
+            <h4>{{ position.position}}</h4>
+            <ul>
+              {% if position.positionAvailable != "FILLED" %}
+              <li>
+                <b>Available Positions:</b> {{ position.positionAvailable }}
+              </li>
+              {% else %}
+              <li class="filled"><b>Available Positions:</b> None</li>
+              {% endif %} {% if position.learnerAvailable != "FILLED" %}
+              <li>
+                <b>Available Learner Positions:</b> {{ position.learnerAvailable
+                }}
+              </li>
+              {% else %}
+              <li class="filled"><b> Available Learner Positions:</b> None</li>
+              {% endif %}
+
+              <li>
+                {% if position.busyTime %}<b>Busy Time:</b> {{ position.busyTime
+                }} {% endif %}
+              </li>
+
+              <li>
+                {% if position.narrative %}<b>Description:</b> {{
+                position.narrative }} {% endif %}
+              </li>
+            </ul>
+          </div>
+
+          <!--contact-card-->
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </article>
 </div>
 <!--.wrapper-->
+
+<script>
+  (function () {
+    // Get relevant elements and collections
+    const tabbed = document.querySelector('.tabbed');
+    const tablist = tabbed.querySelector('ul');
+    const tabs = tablist.querySelectorAll('a');
+    const panels = tabbed.querySelectorAll('[id^="section"]');
+
+    // The tab switching function
+    const switchTab = (oldTab, newTab) => {
+      newTab.focus();
+      // Make the active tab focusable by the user (Tab key)
+      newTab.removeAttribute('tabindex');
+      // Set the selected state
+      newTab.setAttribute('aria-selected', 'true');
+      oldTab.removeAttribute('aria-selected');
+      oldTab.setAttribute('tabindex', '-1');
+      // Get the indices of the new and old tabs to find the correct
+      // tab panels to show and hide
+      let index = Array.prototype.indexOf.call(tabs, newTab);
+      let oldIndex = Array.prototype.indexOf.call(tabs, oldTab);
+      panels[oldIndex].hidden = true;
+      panels[index].hidden = false;
+    };
+
+    // Add the tablist role to the first <ul> in the .tabbed container
+    tablist.setAttribute('role', 'tablist');
+
+    // Add semantics are remove user focusability for each tab
+    Array.prototype.forEach.call(tabs, (tab, i) => {
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('id', 'tab' + (i + 1));
+      tab.setAttribute('tabindex', '-1');
+      tab.parentNode.setAttribute('role', 'presentation');
+
+      // Handle clicking of tabs for mouse users
+      tab.addEventListener('click', (e) => {
+        e.preventDefault();
+        let currentTab = tablist.querySelector('[aria-selected]');
+        if (e.currentTarget !== currentTab) {
+          switchTab(currentTab, e.currentTarget);
+        }
+      });
+
+      // Handle keydown events for keyboard users
+      tab.addEventListener('keydown', (e) => {
+        // Get the index of the current tab in the tabs node list
+        let index = Array.prototype.indexOf.call(tabs, e.currentTarget);
+        // Work out which key the user is pressing and
+        // Calculate the new tab's index where appropriate
+        let dir =
+          e.which === 37
+            ? index - 1
+            : e.which === 39
+            ? index + 1
+            : e.which === 40
+            ? 'down'
+            : null;
+        if (dir !== null) {
+          e.preventDefault();
+          // If the down key is pressed, move focus to the open panel,
+          // otherwise switch to the adjacent tab
+          dir === 'down'
+            ? panels[i].focus()
+            : tabs[dir]
+            ? switchTab(e.currentTarget, tabs[dir])
+            : void 0;
+        }
+      });
+    });
+
+    // Add tab panel semantics and hide them all
+    Array.prototype.forEach.call(panels, (panel, i) => {
+      panel.setAttribute('role', 'tabpanel');
+      panel.setAttribute('tabindex', '-1');
+      let id = panel.getAttribute('id');
+      panel.setAttribute('aria-labelledby', tabs[i].id);
+      panel.hidden = true;
+    });
+
+    // Initially activate the first tab and reveal the first tab panel
+    tabs[0].removeAttribute('tabindex');
+    tabs[0].setAttribute('aria-selected', 'true');
+    panels[0].hidden = false;
+  })();
+</script>
 {% include "partials/prefooter.html" %} {% endblock %}
+
+<div class="contact-wrapper card-wrapper openpositions">
+  {% for position in openpositions %}
+  <div class="contact-card">
+    <h4>{{ position.position}}</h4>
+    <ul>
+      {% if position.positionAvailable != "FILLED" %}
+      <li><b>★ Available Positions:</b> {{ position.positionAvailable }}</li>
+      {% else %}
+      <li class="filled"><b> Available Positions:</b> None</li>
+      {% endif %} {% if position.learnerAvailable != "FILLED" %}
+      <li>
+        <b>★ Available Learner Positions:</b> {{ position.learnerAvailable }}
+      </li>
+      {% else %}
+      <li class="filled"><b> Available Learner Positions:</b> None</li>
+      {% endif %}
+
+      <li>
+        {% if position.busyTime %}<b>Busy Time:</b> {{ position.busyTime }} {%
+        endif %}
+      </li>
+
+      <li>
+        {% if position.narrative %}<b>Description:</b> {{ position.narrative }}
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+  <!--contact-card-->
+  {% endfor %}
+</div>
