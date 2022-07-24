@@ -1417,15 +1417,14 @@ ul[role='tablist'] {
   }
 
   [role='tablist'] [aria-selected]::after {
-    content: '\0020⬅';
+    content: '◀︎';
   }
 
   [role='tabpanel'] {
     border-top: 0;
   }
 }
-
-html {
+:html  {
   visibility: visible;
   opacity: 1;
   overflow-y: scroll;
