@@ -12,7 +12,7 @@ module.exports = async function () {
     );
     return donor;
   } catch (e) {
-    return [];
     console.log('Failed getting google sheet donor info, returning 0');
+    return [];
   }
 };

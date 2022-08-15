@@ -7,10 +7,10 @@
 </article>
 <div class="donor-level-container">
   <div class="level">
-    <h3>Diamond Level</h3>
+    <h3>Grandparents Level</h3>
   </div>
   <div class="donor-wrapper">
-    {% for donor in donors %} {% if donor.level == "Diamond" %}
+    {% for donor in donors %} {% if donor.level == "Grandparents" %}
     <div class="donor-container">
       <ul>
         <li>{{ donor.name }}</li>
@@ -23,42 +23,10 @@
 <!--donor-level-container-->
 <div class="donor-level-container">
   <div class="level">
-    <h3>Platinum Level</h3>
+    <h3>Parents Level</h3>
   </div>
   <div class="donor-wrapper">
-    {% for donor in donors %} {% if donor.level == "Platinum" %}
-    <div class="donor-container">
-      <ul>
-        <li>{{ donor.name }}</li>
-      </ul>
-    </div>
-    {% endif %} {% endfor %}
-  </div>
-  <!--.donor-wrapper-->
-</div>
-<!--donor-level-container-->
-<div class="donor-level-container">
-  <div class="level">
-    <h3>Gold Level</h3>
-  </div>
-  <div class="donor-wrapper">
-    {% for donor in donors %} {% if donor.level == "Gold" %}
-    <div class="donor-container">
-      <ul>
-        <li>{{ donor.name }}</li>
-      </ul>
-    </div>
-    {% endif %} {% endfor %}
-  </div>
-  <!--.donor-wrapper-->
-</div>
-<!--donor-level-container-->
-<div class="donor-level-container">
-  <div class="level">
-    <h3>Silver Level</h3>
-  </div>
-  <div class="donor-wrapper">
-    {% for donor in donors %} {% if donor.level == "Silver" %}
+    {% for donor in donors %} {% if donor.level == "Parents" %}
     <div class="donor-container">
       <ul>
         <li>{{ donor.name }}</li>
@@ -71,10 +39,10 @@
 <!--donor-level-container-->
 <div class="donor-level-container last">
   <div class="level">
-    <h3>Bronze Level</h3>
+    <h3>Family and Friends Level</h3>
   </div>
-  <div class="donor-wrapper donor-bronze">
-    {% for donor in donors %} {% if donor.level == "Bronze" %}
+  <div class="donor-wrapper">
+    {% for donor in donors %} {% if donor.level == "FamilyAndFriends" %}
     <div class="donor-container">
       <ul>
         <li>{{ donor.name }}</li>
@@ -84,4 +52,5 @@
   </div>
   <!--.donor-wrapper-->
 </div>
+
 <!--donor-level-container-->
