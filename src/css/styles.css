@@ -541,17 +541,18 @@ a.social-nav__button:hover {
 
 .sponsor-logos-container,
 .ind-donors {
-  padding: 2rem 0 3rem;
+  padding: 3rem 0 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  -moz-column-gap: 2rem;
-  column-gap: 2rem;
-  row-gap: 3rem;
+  -moz-column-gap: 0.8rem;
+  column-gap: 0.8rem;
+  row-gap: 4rem;
   align-content: center;
   align-items: center;
   border-bottom: 2px solid var(--lightest-brand);
 }
+
 .ind-donors {
   border-bottom: none;
   padding-bottom: 0;
@@ -565,7 +566,7 @@ a.social-nav__button:hover {
   border-bottom: none;
 }
 .sponsor-logos-item {
-  flex: 0 0 20%;
+  flex: 0 0 18%;
 }
 .sponsor-logos-item a:hover img {
   opacity: 0.7;
@@ -754,7 +755,12 @@ footer > * {
   transform: translateY(0.5rem);
   flex-shrink: 0;
   line-height: 1;
+  transition: all 200ms ease-out;
 }
+.footer-item__brand a {
+  text-decoration: none;
+}
+
 .footer-item__brand svg {
   flex-shrink: 0;
 }
@@ -783,6 +789,10 @@ footer > * {
   fill: var(--pale-brand);
   color: var(--pale-brand);
   opacity: 1;
+}
+.footer-item__brand a:hover {
+  color: var(--white) !important;
+  opacity: 0.8;
 }
 
 .footer-item > .social-nav__button {
