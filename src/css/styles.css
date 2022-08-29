@@ -546,8 +546,8 @@ a.social-nav__button:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   -moz-column-gap: 0.8rem;
-  column-gap: 0.8rem;
-  row-gap: 4rem;
+  column-gap: 2rem;
+  row-gap: 3rem;
   align-content: center;
   align-items: center;
   border-bottom: 2px solid var(--lightest-brand);
@@ -586,7 +586,7 @@ img.sponsor-logos-img {
     flex: 0 0 30%;
   }
   .sponsor-logos-item {
-    flex: 0 0 50%;
+    flex: 0 0 45%;
   }
 }
 
