@@ -561,6 +561,7 @@ a.social-nav__button:hover {
   -moz-column-gap: 2rem;
   column-gap: 2rem;
   flex-wrap: nowrap;
+  padding-top: 1rem;
 }
 .sponsor-logos-container:last-of-type {
   border-bottom: none;
@@ -583,7 +584,7 @@ img.sponsor-logos-img {
     flex-wrap: wrap;
   }
   .sponsor-logos-container.in-kind > .sponsor-logos-item {
-    flex: 0 0 30%;
+    flex: 0 0 45%;
   }
   .sponsor-logos-item {
     flex: 0 0 45%;
@@ -591,9 +592,9 @@ img.sponsor-logos-img {
 }
 
 @media (max-width: 768px) {
-  .sponsor-logos-container.in-kind > .sponsor-logos-item {
+  /* .sponsor-logos-container.in-kind > .sponsor-logos-item {
     max-width: 200px;
-  }
+  } */
 
   .sponsor-logos-container.in-kind {
     flex-wrap: wrap;
