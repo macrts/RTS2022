@@ -27,6 +27,11 @@
           "sponsor": "Terry McDaniel & Company",
           "url": "https://www.tmcdanco.com/",
           "logo": "../images/sponsor-logos/TMcD.jpg"
+        },
+        {
+          "sponsor": "Sparkle Stories",
+          "url": "https://www.sparklestories.com/",
+          "logo": "../images/sponsor-logos/SparkleStories.png"
         }
       ]
     },
