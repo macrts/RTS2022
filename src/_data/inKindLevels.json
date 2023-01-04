@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "level": "Restaurants",
-      "tag": "Thanks for feeding our casts and crews this season!",
+      "level": "Printing Services",
+      "tag": "Thanks for printing all of our posters and programs this season!",
       "levelItems": [
         {
-          "sponsor": "Happy Chicks",
-          "url": "https://www.happychicks.com/",
-          "logo": "../images/in-kind-logos/Happy-Chicks.png"
+          "sponsor": "Global Printing",
+          "url": "http://www.gpsaustin.com/",
+          "logo": "../images/in-kind-logos/Global-Printing.jpg"
         }
       ]
     }

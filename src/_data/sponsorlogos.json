@@ -9,14 +9,14 @@
           "logo": "../images/sponsor-logos/NMSB.png"
         },
         {
+          "sponsor": "Happy Chicks",
+          "url": "https://www.happychicks.com/",
+          "logo": "../images/sponsor-logos/Happy-Chicks.png"
+        },
+        {
           "sponsor": "Home Slice",
           "url": "https://homeslicepizza.com/",
           "logo": "../images/sponsor-logos/homeslice-pizza.jpg"
-        },
-        {
-          "sponsor": "Global Printing",
-          "url": "http://www.gpsaustin.com/",
-          "logo": "../images/sponsor-logos/Global-Printing.jpg"
         },
         {
           "sponsor": "Juice",
