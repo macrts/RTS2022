@@ -33,11 +33,6 @@
         {
           "text": "Our Supporters",
           "url": "/our-supporters/"
-        },
-        {
-          "text": "Amazon Smile",
-          "url": "https://smile.amazon.com/?ref_=smi_ext_ch_87-2157644_dl",
-          "externalLink": "true"
         }
       ]
     },
@@ -66,7 +61,7 @@
       "subitems": [
         {
           "text": "Headshot & Bio Submission",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFRfWznx3zLcyiEDZENg0RpP3qa1FjXeuehmWh4UA_ld6piA/viewform",
+          "url": "https://forms.gle/7QEjxYX4t7mDmja18",
           "externalLink": "true"
         },
         {
@@ -112,11 +107,6 @@
       "id": "performances",
       "subitems": [
         {
-          "text": "2022/2023 Season",
-          "url": "https://mactheatre.com/#whats-on",
-          "externalLink": "true"
-        },
-        {
           "text": "Purchase Tickets",
           "url": "https://mccallum.ludus.com/index.php",
           "externalLink": "true"
@@ -124,10 +114,6 @@
         {
           "text": "Plan Your Visit",
           "url": "/visit/"
-        },
-        {
-          "text": "Latest Show Video",
-          "url": "/latest-show-video/"
         }
       ]
     }

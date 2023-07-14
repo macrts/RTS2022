@@ -96,13 +96,17 @@ a {
   -ms-hyphens: none;
   hyphens: none;
 }
-a:not(.dropdown__menu
-    a, a.site-head__brand, a.social-icon, a.social-nav__button, a.donate.button:hover, .pre-footer
-    .button:hover, .footer-external a:hover, a.button, .clicky-menu
-    li
-    > ul
-    > li
-    > a):hover {
+a:not(
+    .dropdown__menu a,
+    a.site-head__brand,
+    a.social-icon,
+    a.social-nav__button,
+    a.donate.button:hover,
+    .pre-footer .button:hover,
+    .footer-external a:hover,
+    a.button,
+    .clicky-menu li > ul > li > a
+  ):hover {
   color: var(--secondary-brand);
 }
 hr {
@@ -339,11 +343,11 @@ a.site-head__brand:visited {
     position: static;
     padding-bottom: 1rem;
   }
-  .carousel-cell {
+  /* .carousel-cell {
     min-width: 100%;
     min-height: 50vh;
-  }
-  .carousel-cell img {
+  } */
+  /* .carousel-cell img {
     min-width: 100%;
     display: flex;
     place-content: center;
@@ -354,7 +358,8 @@ a.site-head__brand:visited {
     min-height: 70vh;
     background: var(--white);
     color: var(--white);
-  }
+  } */
+
   .sponsor__list {
     gap: 3rem 2rem;
   }
@@ -374,11 +379,13 @@ a.site-head__brand:visited {
 main {
   margin: 0 auto;
 }
-.carousel-cell {
-  max-height: 80vh;
-  min-width: 100vw;
+@media (min-width: 768px) {
+  .carousel-cell {
+    max-height: 80vh;
+    min-width: 100vw;
+  }
 }
-.carousel-cell > img {
+.carousel-cell img {
   max-inline-size: 100%;
   block-size: auto;
   width: 100%;
@@ -403,7 +410,7 @@ p.intro-center {
   text-align: center;
 }
 
-button:not(.dropdown__title, .givebutter-button),
+button:not(.dropdown__title, .givebutter-button, .flickity-button),
 .button,
 a.social-nav__button {
   display: inline-block;
@@ -423,6 +430,9 @@ a.social-nav__button {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
+svg.flickity-button-icon {
+  fill: var(--secondary-brand);
 }
 
 a.social-nav__button {
