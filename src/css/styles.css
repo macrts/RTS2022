@@ -391,8 +391,8 @@ main {
   width: 100%;
   display: flex;
   place-content: center;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: contain;
+  object-fit: contain;
   background: var(--white);
   color: var(--white);
 }
