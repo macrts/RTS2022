@@ -366,6 +366,9 @@ a.site-head__brand:visited {
   .sponsor-checkout-list {
     max-width: 50%;
   }
+  button.flickity-button {
+    display: none;
+  }
 }
 
 @media (min-width: 1000px) {
