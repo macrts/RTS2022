@@ -4,34 +4,29 @@
       "level": "Lead",
       "levelItems": [
         {
-          "sponsor": "NMSB",
-          "url": "https://nmsb-law.com/attorney/hillery-r-kaplan/",
-          "logo": "../images/sponsor-logos/NMSB.png"
+          "sponsor": "Chez Zee",
+          "url": "https://www.chez-zee.com/",
+          "logo": "../images/sponsor-logos/ChezZee_Logo.png"
         },
         {
-          "sponsor": "Happy Chicks",
-          "url": "https://www.happychicks.com/",
-          "logo": "../images/sponsor-logos/Happy-Chicks.png"
+          "sponsor": "El Patio Foods",
+          "url": "https://www.elpatiofoods.com/",
+          "logo": "../images/sponsor-logos/Logo-ElPatioFoods.png"
         },
         {
-          "sponsor": "Home Slice",
+          "sponsor": "Global Printing",
+          "url": "http://www.gpsaustin.com/",
+          "logo": "../images/sponsor-logos/GlobalPrintingLogo02.jpg"
+        },
+        {
+          "sponsor": "Home Slice Pizza",
           "url": "https://homeslicepizza.com/",
-          "logo": "../images/sponsor-logos/homeslice-pizza.jpg"
-        },
-        {
-          "sponsor": "Juice",
-          "url": "https://www.jasonheffron.com/",
-          "logo": "../images/sponsor-logos/HeffronJuice.jpg"
+          "logo": "../images/sponsor-logos/HomeSlice PizzaLogo.jpg"
         },
         {
           "sponsor": "Terry McDaniel & Company",
           "url": "https://www.tmcdanco.com/",
-          "logo": "../images/sponsor-logos/TMcD.jpg"
-        },
-        {
-          "sponsor": "Sparkle Stories",
-          "url": "https://www.sparklestories.com/",
-          "logo": "../images/sponsor-logos/SparkleStories.png"
+          "logo": "../images/sponsor-logos/TMD Logo.jpg"
         }
       ]
     },
@@ -39,51 +34,40 @@
       "level": "Associate",
       "levelItems": [
         {
-          "sponsor": "Zoll Firm",
-          "url": "https://zollfirm.com/",
-          "logo": "../images/sponsor-logos/zoll.jpg"
+          "sponsor": "Acacia Heritage Consulting",
+          "url": "https://www.acaciaheritage.com/",
+          "logo": "../images/sponsor-logos/AcaciaLogoBlue.jpg"
         },
         {
-          "sponsor": "Central Family Practice",
-          "url": "https://centralfamilypractice.com/",
-          "logo": "../images/sponsor-logos/CentralFamilyPractice.jpg"
-        },
-        {
-          "sponsor": "Hive + Honey",
-          "url": "https://www.hiveandhoneyatx.com/",
-          "logo": "../images/sponsor-logos/HH.png"
-        },
-
-        {
-          "sponsor": "Chez Zee",
-          "url": "https://www.chez-zee.com/",
-          "logo": "../images/sponsor-logos/ChezZee.jpg"
-        },
-        {
-          "sponsor": "Frontier Bank",
-          "url": "https://www.frontierbankoftexas.bank/",
-          "logo": "../images/sponsor-logos/FrontierBank.png"
-        },
-        {
-          "sponsor": "Edward Jones",
+          "sponsor": "Brian K Gramling",
           "url": "https://www.edwardjones.com/us-en/financial-advisor/brian-gramling",
           "logo": "../images/sponsor-logos/BrianGramling.jpg"
         },
         {
-          "sponsor": "Layer 3",
-          "url": "https://layer3realestate.com/",
-          "logo": "../images/sponsor-logos/Layer3.jpg"
+          "sponsor": "L'Oca D'Oro",
+          "url": "https://www.locadoroaustin.com/",
+          "logo": "../images/sponsor-logos/Logo-LocaDoroGold.jpg"
         },
         {
-          "sponsor": "Yost",
-          "url": "https://www.yostauto.com/",
-          "logo": "../images/sponsor-logos/Yost.jpg"
+          "sponsor": "Jason Heffron",
+          "url": "https://www.jasonheffron.com/",
+          "logo": "../images/sponsor-logos/HeffronJuice3.PNG"
+        },
+        {
+          "sponsor": "Reality Based Group",
+          "url": "https://www.realitybasedgroup.com/",
+          "logo": "../images/sponsor-logos/RealityBasedGroupLogo-Black.png"
         },
 
         {
-          "sponsor": "Birds Barber Shop",
-          "url": "https://birdsbarbershop.com/",
-          "logo": "../images/sponsor-logos/BirdsBarbershop.jpg"
+          "sponsor": "Layer 3 Real Estate",
+          "url": "https://layer3realestate.com/",
+          "logo": "../images/sponsor-logos/Layer3Logo.jpg"
+        },
+        {
+          "sponsor": "Hilary R Kaplan",
+          "url": "https://nmsb-law.com/attorney/hillery-r-kaplan/",
+          "logo": "../images/sponsor-logos/NMSB.png"
         }
       ]
     }
