@@ -34,19 +34,19 @@
       "level": "Associate",
       "levelItems": [
         {
-          "sponsor": "Layer 3 Real Estate",
-          "url": "https://layer3realestate.com/",
-          "logo": "../images/sponsor-logos/Layer3Logo.jpg"
+          "sponsor": "Acacia Heritage Consulting",
+          "url": "https://www.acaciaheritage.com/",
+          "logo": "../images/sponsor-logos/AcaciaLogoBlue.jpg"
+        },
+        {
+          "sponsor": "Brian K Gramling",
+          "url": "https://www.edwardjones.com/us-en/financial-advisor/brian-gramling",
+          "logo": "../images/sponsor-logos/BrianGramling.jpg"
         },
         {
           "sponsor": "L'Oca D'Oro",
           "url": "https://www.locadoroaustin.com/",
           "logo": "../images/sponsor-logos/Logo-LocaDoroCharcoal.jpg"
-        },
-        {
-          "sponsor": "Hilary R Kaplan",
-          "url": "https://nmsb-law.com/attorney/hillery-r-kaplan/",
-          "logo": "../images/sponsor-logos/NMSB.png"
         },
         {
           "sponsor": "Jason Heffron",
@@ -59,14 +59,14 @@
           "logo": "../images/sponsor-logos/RealityBasedGroupLogo-Black.png"
         },
         {
-          "sponsor": "Acacia Heritage Consulting",
-          "url": "https://www.acaciaheritage.com/",
-          "logo": "../images/sponsor-logos/AcaciaLogoBlue.jpg"
+          "sponsor": "Layer 3 Real Estate",
+          "url": "https://layer3realestate.com/",
+          "logo": "../images/sponsor-logos/Layer3Logo.jpg"
         },
         {
-          "sponsor": "Brian K Gramling",
-          "url": "https://www.edwardjones.com/us-en/financial-advisor/brian-gramling",
-          "logo": "../images/sponsor-logos/BrianGramling.jpg"
+          "sponsor": "Hilary R Kaplan",
+          "url": "https://nmsb-law.com/attorney/hillery-r-kaplan/",
+          "logo": "../images/sponsor-logos/NMSB.png"
         }
       ]
     }
