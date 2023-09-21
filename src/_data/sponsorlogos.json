@@ -14,14 +14,19 @@
           "logo": "../images/sponsor-logos/Logo-ElPatioFoods.png"
         },
         {
-          "sponsor": "Global Printing",
-          "url": "http://www.gpsaustin.com/",
-          "logo": "../images/sponsor-logos/GlobalPrintingLogo02.jpg"
-        },
-        {
           "sponsor": "Home Slice Pizza",
           "url": "https://homeslicepizza.com/",
           "logo": "../images/sponsor-logos/HomeSlice PizzaLogo.jpg"
+        },
+        {
+          "sponsor": "Positive Recovery System",
+          "url": "https://positiverecovery.com/",
+          "logo": "../images/sponsor-logos/Logo - Positive Recover Centers 02.jpg"
+        },
+        {
+          "sponsor": "Global Printing",
+          "url": "http://www.gpsaustin.com/",
+          "logo": "../images/sponsor-logos/GlobalPrintingLogo02.jpg"
         },
         {
           "sponsor": "Terry McDaniel & Company",
