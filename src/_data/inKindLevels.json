@@ -1,13 +1,54 @@
 {
   "items": [
     {
+      "level": "Food",
+      "tag": "Thanks for feeding our cast and crew",
+      "levelItems": [
+        {
+          "sponsor": "Galaxy Cafe",
+          "url": "https://www.galaxycafeaustin.com/",
+          "logo": "../images/in-kind-logos/Galaxy Cafe Logo.png"
+        },
+        {
+          "sponsor": "Home Slice Pizza",
+          "url": "https://homeslicepizza.com/",
+          "logo": "../images/in-kind-logos/HomeSlicePizzaLogo.jpg"
+        },
+        {
+          "sponsor": "Mandola's",
+          "url": "https://mandolas.com/locations/the-triangle/",
+          "logo": "../images/in-kind-logos/MandolasLogo.jpg"
+        },
+        {
+          "sponsor": "Rudy's BBQ",
+          "url": "https://rudysbbq.com/",
+          "logo": "../images/in-kind-logos/RudysLogo.png"
+        },
+        {
+          "sponsor": "Taco Cabana",
+          "url": "https://www.tacocabana.com/",
+          "logo": "../images/in-kind-logos/TacoCabanaLogo.png"
+        },
+        {
+          "sponsor": "Top Notch",
+          "url": "https://www.topnotchaustin.com/",
+          "logo": "../images/in-kind-logos/TopNotchLogo.png"
+        },
+        {
+          "sponsor": "Via 313",
+          "url": "https://www.via313.com/",
+          "logo": "../images/in-kind-logos/Via313Logo.png"
+        }
+      ]
+    },
+    {
       "level": "Printing Services",
-      "tag": "Thanks for printing all of our posters and programs this season!",
+      "tag": "Thanks for printing our playbills and posters!",
       "levelItems": [
         {
           "sponsor": "Global Printing",
           "url": "http://www.gpsaustin.com/",
-          "logo": "../images/in-kind-logos/Global-Printing.jpg"
+          "logo": "../images/in-kind-logos/GlobalPrintingLogo02.jpg"
         }
       ]
     }

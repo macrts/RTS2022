@@ -9,14 +9,14 @@
           "logo": "../images/sponsor-logos/ChezZee_Logo.png"
         },
         {
+          "sponsor": "Terry McDaniel & Company",
+          "url": "https://www.tmcdanco.com/",
+          "logo": "../images/sponsor-logos/TMD Logo.jpg"
+        },
+        {
           "sponsor": "El Patio Foods",
           "url": "https://www.elpatiofoods.com/",
           "logo": "../images/sponsor-logos/Logo-ElPatioFoods.png"
-        },
-        {
-          "sponsor": "Home Slice Pizza",
-          "url": "https://homeslicepizza.com/",
-          "logo": "../images/sponsor-logos/HomeSlice PizzaLogo.jpg"
         },
         {
           "sponsor": "Positive Recovery System",
@@ -24,14 +24,9 @@
           "logo": "../images/sponsor-logos/Logo - Positive Recover Centers 02.jpg"
         },
         {
-          "sponsor": "Global Printing",
-          "url": "http://www.gpsaustin.com/",
-          "logo": "../images/sponsor-logos/GlobalPrintingLogo02.jpg"
-        },
-        {
-          "sponsor": "Terry McDaniel & Company",
-          "url": "https://www.tmcdanco.com/",
-          "logo": "../images/sponsor-logos/TMD Logo.jpg"
+          "sponsor": "Happy Chicks",
+          "url": "https://happychicks.com/",
+          "logo": "../images/sponsor-logos/Happy-Chicks.png"
         }
       ]
     },
