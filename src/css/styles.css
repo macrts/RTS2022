@@ -144,7 +144,9 @@ h3.visit-heading {
 .hide {
   display: none;
 }
-
+.in-kind-home {
+  margin-top: 3rem;
+}
 .site-head {
   padding: 1rem 0;
   font-family: 'Poppins', sans-serif;
