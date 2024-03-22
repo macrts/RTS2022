@@ -20,3 +20,11 @@ if (
     disableForReducedMotion: true,
   });
 }
+
+const inkind = document.querySelector('.in__kind');
+
+console.log(inkind);
+
+if (window.location.pathname !== '/our-supporters/') {
+  inkind.classList.add('hide');
+}
