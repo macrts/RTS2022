@@ -5,25 +5,11 @@
     </div>
   </div>
 </article>
-<div class="donor-level-container">
-  <div class="level">
-    <h3>Grandparents</h3>
-  </div>
-  <div class="donor-wrapper">
-    {% for donor in donors %} {% if donor.level == "Grandparents" %}
-    <div class="donor-container">
-      <ul>
-        <li>{{ donor.name }}</li>
-      </ul>
-    </div>
-    {% endif %} {% endfor %}
-  </div>
-  <!--.donor-wrapper-->
-</div>
+
 <!--donor-level-container-->
 <div class="donor-level-container">
   <div class="level">
-    <h3>Parents</h3>
+    <h3>MacTheatre Parents</h3>
   </div>
   <div class="donor-wrapper">
     {% for donor in donors %} {% if donor.level == "Parents" %}
