@@ -4,29 +4,24 @@
       "level": "Lead",
       "levelItems": [
         {
-          "sponsor": "Chez Zee",
-          "url": "https://www.chez-zee.com/",
-          "logo": "../images/sponsor-logos/ChezZee_Logo.png"
+          "sponsor": "Home Slice Pizza",
+          "url": "https://homeslicepizza.com/",
+          "logo": "../images/in-kind-logos/HomeSlicePizzaLogo.jpg"
         },
         {
-          "sponsor": "Terry McDaniel & Company",
-          "url": "https://www.tmcdanco.com/",
-          "logo": "../images/sponsor-logos/TMD Logo.jpg"
+          "sponsor": "Gaylord Sackler Memorial Skate Park",
+          "url": "/",
+          "logo": "../images/sponsor-logos/gaylord sackler skate park.png"
+        },
+        {
+          "sponsor": "Neu Appliance Outlet",
+          "url": "https://neuapplianceoutlet.com/",
+          "logo": "../images/sponsor-logos/neu-appliance-web-transparent_logo-color_x100@2x.png"
         },
         {
           "sponsor": "El Patio Foods",
           "url": "https://www.elpatiofoods.com/",
           "logo": "../images/sponsor-logos/Logo-ElPatioFoods.png"
-        },
-        {
-          "sponsor": "Positive Recovery System",
-          "url": "https://positiverecovery.com/",
-          "logo": "../images/sponsor-logos/Logo - Positive Recover Centers 02.jpg"
-        },
-        {
-          "sponsor": "Happy Chicks",
-          "url": "https://happychicks.com/",
-          "logo": "../images/sponsor-logos/Happy-Chicks.png"
         }
       ]
     },
@@ -34,39 +29,24 @@
       "level": "Associate",
       "levelItems": [
         {
-          "sponsor": "Acacia Heritage Consulting",
-          "url": "https://www.acaciaheritage.com/",
-          "logo": "../images/sponsor-logos/AcaciaLogoBlue.jpg"
+          "sponsor": "Galaxy Cafe",
+          "url": "https://www.galaxycafeaustin.com/",
+          "logo": "../images/in-kind-logos/Galaxy Cafe Logo.png"
         },
         {
-          "sponsor": "Brian K Gramling",
-          "url": "https://www.edwardjones.com/us-en/financial-advisor/brian-gramling",
-          "logo": "../images/sponsor-logos/BrianGramling.jpg"
+          "sponsor": "Jennipher Judge Realty",
+          "url": "https://www.realtyaustin.com/agents/jennipher-judge",
+          "logo": "../images/sponsor-logos/JennipherJudgeRealty.png"
         },
         {
-          "sponsor": "L'Oca D'Oro",
-          "url": "https://www.locadoroaustin.com/",
-          "logo": "../images/sponsor-logos/Logo-LocaDoroCharcoal.jpg"
+          "sponsor": "Top Notch",
+          "url": "https://www.topnotchaustin.com/",
+          "logo": "../images/in-kind-logos/TopNotchLogo.png"
         },
         {
-          "sponsor": "Jason Heffron",
-          "url": "https://www.jasonheffron.com/",
-          "logo": "../images/sponsor-logos/HeffronJuice3.PNG"
-        },
-        {
-          "sponsor": "Reality Based Group",
-          "url": "https://www.realitybasedgroup.com/",
-          "logo": "../images/sponsor-logos/RealityBasedGroupLogo-Black.png"
-        },
-        {
-          "sponsor": "Layer 3 Real Estate",
-          "url": "https://layer3realestate.com/",
-          "logo": "../images/sponsor-logos/Layer3Logo.jpg"
-        },
-        {
-          "sponsor": "Hilary R Kaplan",
-          "url": "https://nmsb-law.com/attorney/hillery-r-kaplan/",
-          "logo": "../images/sponsor-logos/NMSB.png"
+          "sponsor": "Happy Chicks",
+          "url": "https://happychicks.com/",
+          "logo": "../images/sponsor-logos/Happy-Chicks.png"
         }
       ]
     }

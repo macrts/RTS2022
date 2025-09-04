@@ -1,9 +1,8 @@
-{% extends "layouts/base.html" %} {% block content %} {% include
-"partials/carousel.html" %} {% include "partials/prefooter.html" %}
+{% extends "layouts/base.html" %} {% block content %}
 <div class="wrapper">
   <article class="intro home">
     <div class="intro__header">
-      <h1 class="intro__heading">Welcome! hi hi</h1>
+      <h1 class="intro__heading">Welcome!</h1>
     </div>
     <div class="intro__content">
       <p class="intro__summary">
@@ -38,7 +37,7 @@
   </article>
   <article class="intro">
     <div class="intro__header">
-      <h2>2024/25 Season Sponsors</h2>
+      <h2>2025 Season Sponsors</h2>
     </div>
   </article>
   {% include "partials/sponsor-logos.html" %}
@@ -46,10 +45,11 @@
 
   <article class="intro">
     <div class="intro__header">
-      <h2 class="in-kind-home">In-Kind Contributions</h2>
+      <h2 class="in-kind-donors">In-Kind Contributions</h2>
     </div>
   </article>
-  {% include "partials/in-kind-grid.html" %} {% endblock %}
+  {% include "partials/in-kind-grid.html" %}
 </div>
+{% include "partials/prefooter.html" %} {% endblock %}
 
 <!--wrapper-->
